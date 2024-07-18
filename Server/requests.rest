@@ -1,0 +1,14 @@
+POST http://localhost:3000/create-blog
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODUwNGIxYWQxOGZmYTA3NTJmZTY0NyIsImlhdCI6MTcyMTI4ODI4OH0.kSq8epmkiW-n4JoRZhcmTrviHUwgg94JlMNo_FomRAM
+
+{
+    "title":"this@ is a test blog",
+    "banner":"https://example",
+    "des":"this is a description",
+    "content":{
+        "blocks":[1,2]
+    },
+    "tags":["tag1","tag2"]
+
+}
